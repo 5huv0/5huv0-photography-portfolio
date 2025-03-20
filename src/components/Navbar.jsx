@@ -6,6 +6,10 @@ export default function Navbar() {
       <nav>
         <Link to='/'></Link>
         <Navlink to='/'></Navlink>
+        <Navlink to='/'></Navlink>
+        <Navlink to='/'></Navlink>
+        <Navlink to='/'></Navlink>
+        <Navlink to='/'></Navlink>
       </nav>
     </div>
   )
