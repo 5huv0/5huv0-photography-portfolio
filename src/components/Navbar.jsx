@@ -4,12 +4,12 @@ export default function Navbar() {
   return (
     <div>
       <nav>
-        <Link to='/'></Link>
-        <Navlink to='/'></Navlink>
-        <Navlink to='/'></Navlink>
-        <Navlink to='/'></Navlink>
-        <Navlink to='/'></Navlink>
-        <Navlink to='/'></Navlink>
+        <Link to='/'>logo here</Link>
+        <Navlink to='/'>about me</Navlink>
+        <Navlink to='/'>my work</Navlink>
+        <Navlink to='/'>work experience</Navlink>
+        <Navlink to='/'>education</Navlink>
+        <Navlink to='/'>contact</Navlink>
       </nav>
     </div>
   )
