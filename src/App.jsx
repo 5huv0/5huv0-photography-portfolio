@@ -7,8 +7,7 @@ function App() {
 
   return (
     <>
-    <div className='bg-green-600 font-mono text-50xl'>
-        <h1>hi there</h1>
+    <div>
     </div>
     </>
   )
