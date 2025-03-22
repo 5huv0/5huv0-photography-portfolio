@@ -1,15 +1,25 @@
 import React from 'react'
-import { Link , Navlink} from 'react-router-dom'
+import { NavLink, Link} from 'react-router-dom'
+
 export default function Navbar() {
   return (
-    <div>
+    <div className='bg-amber-500'>
       <nav>
-        <Link to='/'>logo here</Link>
-        <Navlink to='/'>about me</Navlink>
-        <Navlink to='/'>my work</Navlink>
-        <Navlink to='/'>work experience</Navlink>
-        <Navlink to='/'>education</Navlink>
-        <Navlink to='/'>contact</Navlink>
+
+        <div> {/* This div is for site logo */}
+          <Link to='/'>
+            <img src="#" alt="" />
+          </Link>
+        </div>
+
+        <div>
+          <NavLink to="">o</NavLink>
+          <NavLink to="">p</NavLink>
+          <NavLink to="">w</NavLink>
+          <NavLink to="">e</NavLink>
+          <NavLink to="">r</NavLink>
+        </div>
+
       </nav>
     </div>
   )
