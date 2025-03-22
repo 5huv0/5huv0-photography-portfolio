@@ -3,16 +3,16 @@ import { NavLink, Link} from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div className='bg-amber-500'>
-      <nav>
+    <div className='bg-yellow-300'>
+      <nav className='flex justify-between'>
 
-        <div> {/* This div is for site logo */}
+        <div className=''> {/* This div is for site logo */}
           <Link to='/'>
-            <img src="#" alt="" />
+            <img src="../../public/images/logo-1.png" alt="" className='size-20 rounded-full'/>
           </Link>
         </div>
 
-        <div>
+        <div className='flex gap-10'>
           <NavLink to="">o</NavLink>
           <NavLink to="">p</NavLink>
           <NavLink to="">w</NavLink>
