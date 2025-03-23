@@ -9,12 +9,11 @@ export default function Navbar() {
 
         <div className=''> {/* This div is for site logo */}
           <Link to='/'>
-            <img src="../../public/images/logo-1.png" alt="" className='size-18 rounded-full'/>
+            <img src="../../public/images/logo-2.png" alt="" className='size-18 rounded-full'/>
           </Link>
         </div>
 
-        <div 
-        className='flex gap-10 nv-link items-center p-5'>
+        <div className='flex gap-10 nv-link items-center p-5'> {/* This div is for nav links */}
           <NavLink to="/" className='transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-130 hover:underline'>My Work</NavLink>
           <NavLink to="/" className='transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-130 hover:underline'>Work Experience</NavLink>
           <NavLink to="/" className='transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-130 hover:underline'>Education</NavLink>
