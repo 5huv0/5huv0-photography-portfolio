@@ -10,6 +10,17 @@
 .footer{
     background-color: #101820;
     color: #FEE715;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer input{
+    background-color: #101820;
+    color: #FEE715;
+    border: 1px solid #FEE715;
+    padding: 12px 16px;
 }
 
 /* #101820, #FEE715 */

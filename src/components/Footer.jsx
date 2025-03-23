@@ -3,40 +3,50 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <div className='footer font-mono p-3' >
-      <div>
+    <div className='footer font-mono p-3 flex flex-row justify-around' >
+      <div className='text-center text-sm p-3'> {/* This div is for quotes */}
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium veritatis, earum, in cupiditate quae soluta eius doloribus distinctio aliquid dolorum molestiae harum obcaecati itaque quidem odit fuga sint expedita neque?
-          Voluptas dolorum aliquid omnis aliquam voluptatibus qui tempore debitis fugiat mollitia, soluta dolor autem velit vitae consequatur necessitatibus. Modi neque doloremque fugit reiciendis similique ullam possimus nobis perferendis consequatur maiores.
-          Voluptates deleniti aspernatur esse magni sit explicabo, itaque consequuntur earum veniam odio est fugiat. Facilis asperiores ipsum fuga libero aliquid repellat nihil nam tempora, eveniet officia nesciunt reiciendis, voluptatum neque.
-          Modi accusamus distinctio nam rerum et illum officiis, provident enim quis odit doloremque aliquid nemo necessitatibus harum qui libero accusantium quas fuga sint esse maxime similique voluptatem! Odio, magnam perspiciatis.
-          Ipsam incidunt dignissimos sit odit impedit corporis dolores laudantium ipsum! Voluptatem magni esse incidunt, repudiandae fugit laboriosam sapiente amet similique veritatis dolorum et consequuntur a reiciendis nam? Fugit, earum facere.
+        "Every picture tells a story, capturing emotions that words cannot."<br />
+        "Through the lens, I turn fleeting moments into forever memories."<br />
+        "Chasing light, capturing life—one frame at a time."<br />
+        "Moments fade, but photographs make them eternal."<br />
         </p>
       </div>
 
-      <div>
-        <Link to=''>Home</Link>
-        <Link to=''>My Work</Link>
-        <Link to=''>About Me</Link>
-        <Link to=''>Work Experience</Link>
-        <Link to=''>Contact</Link>
+      <div className='flex flex-col justify-center text-center'>{/* This div is for links */}
+        <Link to='/' className='hover:bg-red-600'>Home</Link>
+        <Link to='/' className='hover:bg-red-600'>My Work</Link>
+        <Link to='/' className='hover:bg-red-600'>About Me</Link>
+        <Link to='/' className='hover:bg-red-600'>Work Experience</Link>
+        <Link to='/' className='hover:bg-red-600'>Contact</Link>
       </div>
 
-      <div>
+      <div className=''>{/* This div is for linkings */}
         <p>Subscribe</p>
-        <input type="text" />
-        <Link to=''>
-          <img src="../../public/images/" alt="" />
-          <img src="../../public/images/" alt="" />
-          <img src="../../public/images/" alt="" />
-          <img src="../../public/images/" alt="" />
-          <img src="../../public/images/" alt="" />
-        </Link>
+        <input type="text" placeholder='@ Your gmail here @' className='outline-yellow-300 text-center'/>
+        <div className='flex gap-4 p-3'>
+          <Link to='/' className='bg-yellow-300 rounded-full'>
+            <img src="../../public/images/fb-logo.png" alt="" />
+          </Link>
+          <Link to='/' className='bg-yellow-300 rounded-full'>
+            <img src="../../public/images/insta-logo.png" alt="" />
+          </Link>
+          <Link to='https://contributor.stock.adobe.com/en/portfolio' className='bg-yellow-300 rounded-full'>
+            <img src="../../public/images/adobe-logo.png" alt="" />
+          </Link>
+          <Link to='https://contributor.freepik.com/dashboard' className='bg-yellow-300 rounded-full'>
+            <img src="../../public/images/camera-logo.png" alt="" />
+          </Link>
+          <Link to='/' className='bg-yellow-300 rounded-full'>
+            <img src="../../public/images/gmail-logo.png" alt="" />
+          </Link>
+        </div>
+        
       </div>
+
     </div>
   )
 }
-
 
 // free pik - https://contributor.freepik.com/dashboard
 // adobe - https://contributor.stock.adobe.com/en/portfolio
