@@ -1,14 +1,15 @@
 .nav{
-    background-color: #101820 ;
+    background: linear-gradient(45deg, #101820 50%, #FEE715 50%);
 }
 
 .nv-link{
-    color: #FEE715;
+    color: #101820;
     transition: 5s ease-out;
 }
 
 .footer{
-    background-color: #101820;
+    /* background: linear-gradient(120deg, #101820 60%, #FEE715 100%); */
+    background: linear-gradient(-45deg, #101820 50%, #FEE715 50%);
     color: #FEE715;
     position: fixed;
     bottom: 0;

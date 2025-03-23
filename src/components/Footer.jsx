@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <div className='footer font-mono p-3 flex flex-row justify-around' >
-      <div className='text-center text-sm p-3'> {/* This div is for quotes */}
+      <div className='text-center font-extrabold p-3' style={{color: "#101820"}}> {/* This div is for quotes */}
         <p>
         "Every picture tells a story, capturing emotions that words cannot."<br />
         "Through the lens, I turn fleeting moments into forever memories."<br />
