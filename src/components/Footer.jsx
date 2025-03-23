@@ -21,7 +21,22 @@ export default function Footer() {
         <Link to=''>Work Experience</Link>
         <Link to=''>Contact</Link>
       </div>
-      <div></div>
+
+      <div>
+        <p>Subscribe</p>
+        <input type="text" />
+        <Link to=''>
+          <img src="../../public/images/" alt="" />
+          <img src="../../public/images/" alt="" />
+          <img src="../../public/images/" alt="" />
+          <img src="../../public/images/" alt="" />
+          <img src="../../public/images/" alt="" />
+        </Link>
+      </div>
     </div>
   )
 }
+
+
+// free pik - https://contributor.freepik.com/dashboard
+// adobe - https://contributor.stock.adobe.com/en/portfolio
