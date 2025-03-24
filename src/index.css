@@ -2,4 +2,7 @@
 
 @theme{
   --text-50xl : 20rem;
+  --size-150 : 400px;
+  --size-200 : 500px;
+  --size-250 : 600px;
 }
