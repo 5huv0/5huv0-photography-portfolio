@@ -24,4 +24,14 @@
     padding: 12px 16px;
 }
 
+.footer button{
+    padding: 13px 16px;
+}
+
+.footer button:hover{
+    background-color: red;
+    color: #FEE715;
+    cursor: pointer;
+}
+
 /* #101820, #FEE715 */

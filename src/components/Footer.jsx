@@ -22,8 +22,11 @@ export default function Footer() {
       </div>
 
       <div className=''>{/* This div is for linkings */}
-        <p>Subscribe</p>
+        <p className='p-3'>Subscribe Here</p>
         <input type="text" placeholder='@ Your gmail here @' className='outline-yellow-300 text-center'/>
+        <button className='bg-yellow-400 text-black'>
+          Submit
+        </button>
         <div className='flex gap-4 p-3'>
           <Link to='/' className='bg-yellow-300 rounded-full'>
             <img src="../../public/images/fb-logo.png" alt="" />
