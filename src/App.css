@@ -1,5 +1,12 @@
+.app{
+    background-color: #101820;
+    font-family: monospace;
+    color: #FEE715;
+}
+
 .nav{
     background: linear-gradient(45deg, #101820 50%, #FEE715 50%);
+    margin-bottom: 10px;
 }
 
 .nv-link{
@@ -11,10 +18,11 @@
     /* background: linear-gradient(120deg, #101820 60%, #FEE715 100%); */
     background: linear-gradient(-45deg, #101820 50%, #FEE715 50%);
     color: #FEE715;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
+    margin-top: 10px;
 }
 
 .footer input{
@@ -33,5 +41,6 @@
     color: #FEE715;
     cursor: pointer;
 }
+
 
 /* #101820, #FEE715 */

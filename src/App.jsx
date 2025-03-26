@@ -10,9 +10,12 @@ function App() {
 
   return (
     <>
+    <div className='app'>
       <Navbar/>
       <Outlet/>
-      {/* <Footer/> */}
+      <Footer/>
+    </div>
+      
     </>
   )
 }
