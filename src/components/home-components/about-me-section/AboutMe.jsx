@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div className='flex'>
       <motion.div
-      className='bg-amber-600 '
+      className=''
     //   animate={{
     //     x:200,
     //     y:200
@@ -15,11 +15,11 @@ export default function AboutMe() {
     //     duration:2
     //     }}
       >
-        <img src="../../../../public/images/me1.jpg" alt="" className='size-96 rounded-full '/>
+        <img src="../../../../public/images/me1.jpg" alt="" className='rounded-full '/>
       </motion.div>
 
       <motion.div
-      className='bg-amber-500'
+      className=''
     //   animate={{
     //     x:200,
     //     y:200
