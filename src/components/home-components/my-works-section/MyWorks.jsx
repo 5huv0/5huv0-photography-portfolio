@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MyWorks() {
   return (
-    <div className='flex m-10'>
+    <div className=''>
       <div>
         <p>
           My Works
