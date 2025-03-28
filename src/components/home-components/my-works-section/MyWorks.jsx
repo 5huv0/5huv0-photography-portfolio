@@ -4,7 +4,7 @@ export default function MyWorks() {
   return (
     <div className=''>
       <div>
-        <p>
+        <p className='text-6xl font-extrabold  bg-red-600 w-fit'>
           My Works
         </p>
       </div>
