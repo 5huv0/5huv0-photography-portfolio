@@ -1,24 +1,19 @@
 import React from 'react'
+import SliderComp from './slider/SliderComp'
 
 export default function MyWorks() {
+
   return (
-    <div className=''>
-      <div>
-        <p className='text-6xl font-extrabold  bg-red-600 w-fit'>
-          My Works
-        </p>
+    <div className='flex flex-col justify-center text-center'>
+      <div className='text-6xl font-extrabold  bg-red-600 w-fit'>
+        📷My Works:
       </div>
 
-      <div className='flex gap-3 items-center justify-center'>
-        <div>
-          <img src="../../../../public/images/pic1.jpg" alt="" className='size-150'/>
-        </div>
-        <div>
-          <img src="../../../../public/images/pic2.jpg" alt="" className='size-150'/>
-        </div><div>
-          <img src="../../../../public/images/pic3.jpg" alt="" className='size-150'/>
-        </div>
+      <div className='p-3 m-3'>
+        <SliderComp/>
       </div>
+      
+
     </div>
   )
 }
