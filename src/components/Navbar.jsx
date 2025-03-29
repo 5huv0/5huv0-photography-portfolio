@@ -9,7 +9,7 @@ export default function Navbar() {
 
         <div className=''> {/* This div is for site logo */}
           <Link to='/'>
-            <img src="../../public/images/logo-2.png" alt="" className='size-18 rounded-full'/>
+            <img src="/images/logo-2.png" alt="" className='size-18 rounded-full'/>
           </Link>
         </div>
 
