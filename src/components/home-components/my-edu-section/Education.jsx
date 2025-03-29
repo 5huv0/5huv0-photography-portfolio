@@ -22,7 +22,7 @@ export default function Education() {
       </div>
 
       <div>
-        <img src="../../../../public/images/edu.jpg" alt="" className='w-140 h-140 object-fit rounded-full border-3 border-[#FEE715]'/>
+        <img src="/images/edu.jpg" alt="" className='w-140 h-140 object-fit rounded-full border-3 border-[#FEE715]'/>
       </div>
     </div>
   )
