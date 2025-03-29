@@ -8,7 +8,7 @@ export default function WorkExp() {
       </div>
 
       <div className='font-mono flex flex-col justify-start max-w-3xl gap-8 border p-6 border-[#FEE715'>
-        <p className='text-6xl font-extrabold  bg-red-600 w-fit'>📷My Work Experience:</p>
+        <p className='text-6xl font-extrabold  bg-red-600 w-fit '>📷My Work Experience:</p>
         <p className='text-2xl'>
         <ul>
           <li className='p-2'>
