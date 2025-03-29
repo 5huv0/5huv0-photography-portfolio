@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div className='flex flex-row items-center m-10 gap-6'>
       <div>
-        <img src="/images/me11.png" alt=""  className="w-150 h-150 object-cover rounded-full border-3 border-[#FEE715]"/>
+        <img src="/images/me1.png" alt=""  className="w-150 h-150 object-cover rounded-full border-3 border-[#FEE715]"/>
       </div>
 
       <div className='font-mono flex flex-col justify-start max-w-2xl gap-8 border p-4 border-[#FEE715]'>
