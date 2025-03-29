@@ -4,7 +4,7 @@ export default function WorkExp() {
   return (
     <div className='flex flex-row gap-6 items-center m-10'>
       <div>
-        <img src="../../../../public/images/me3.jpg" alt="" className='h-150 w-150 border border-[#FEE715] object-fit rounded-full'/>
+        <img src="images/me3.jpg" alt="" className='h-150 w-150 border border-[#FEE715] object-fit rounded-full'/>
       </div>
 
       <div className='font-mono flex flex-col justify-start max-w-3xl gap-8 border p-6 border-[#FEE715'>
