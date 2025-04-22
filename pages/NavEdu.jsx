@@ -26,7 +26,7 @@ export default function NavEdu() {
                 <p className='text-orange-600 text-xl'>(2017-2019)</p>
                 <p className='text-lg'>With a growing passion for science and technology, I moved on to Dhaka City College, one of the most reputed colleges in the country, to continue my higher secondary education in the same stream from 2017 to 2019. My time at DCC was instrumental in sharpening my academic focus. Surrounded by brilliant peers and inspiring teachers, I deepened my understanding of scientific principles and became more confident in my abilities. These two years laid the groundwork for my decision to pursue engineering.</p>
                 <Link to="https://www.dhakacitycollege.edu.bd/" className='flex flex-row justify-items-center'> 
-                    <p className='font-bold text-green-600 hover:text-red-500'>More About My College >>>></p>
+                    <p className='font-bold text-green-600 hover:text-red-500'>More About My College >>>> </p>
                     <img src="images/college-pic.jpg" alt="" className='size-80 object-contain'/>
                 </Link>
             </div>
