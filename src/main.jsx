@@ -8,6 +8,7 @@ import NavAboutMe from '../pages/NavAboutMe.jsx'
 import NavContact from '../pages/NavContact.jsx'
 import NavMyWorks from '../pages/NavMyWorks.jsx'
 import NavWorkExp from '../pages/NavWorkExp.jsx'
+import NavEdu from '../pages/NavEdu.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route path = 'navcontact' element={<NavContact/>}/>
       <Route path = 'navmyworks' element={<NavMyWorks/>}/>
       <Route path = 'navworkexp' element={<NavWorkExp/>}/>
+      <Route path = 'navedu' element={<NavEdu/>}/>
     </Route>
   )
 )

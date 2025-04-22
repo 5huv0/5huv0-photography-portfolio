@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className='flex flex-wrap gap-10 nv-link items-center p-5 font-mono font-extrabold'> {/* This div is for nav links */}
           <NavLink to="navmyworks" className='transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-130 hover:underline'>My Work</NavLink>
           <NavLink to="navworkexp" className='transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-130 hover:underline'>Work Experience</NavLink>
-          <NavLink to="/" className='transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-130 hover:underline'>Education</NavLink>
+          <NavLink to="navedu" className='transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-130 hover:underline'>Education</NavLink>
           <NavLink to="navaboutme" className='transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-130 hover:underline'>About Me</NavLink>
           <NavLink to="navcontact" className='transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-130 hover:underline'>Contact</NavLink>
         </div>
