@@ -44,7 +44,7 @@
 
 
 .nav-edu{
-    background-image: url('../public/images/edu-bg-2.jpg');
+    background-image: url('/images/edu-bg-2.jpg');
     object-fit: contain;
     margin-bottom: 10px;
 }
