@@ -15,10 +15,10 @@ export default function Footer() {
 
       <div className='flex flex-col justify-center text-center'>{/* This div is for links */}
         <Link to='/' className='hover:bg-red-600'>Home</Link>
-        <Link to='/' className='hover:bg-red-600'>My Work</Link>
-        <Link to='/' className='hover:bg-red-600'>About Me</Link>
-        <Link to='/' className='hover:bg-red-600'>Work Experience</Link>
-        <Link to='/' className='hover:bg-red-600'>Contact</Link>
+        <Link to='navmyworks' className='hover:bg-red-600'>My Work</Link>
+        <Link to='navaboutme' className='hover:bg-red-600'>About Me</Link>
+        <Link to='navworkexp' className='hover:bg-red-600'>Work Experience</Link>
+        <Link to='navcontact' className='hover:bg-red-600'>Contact</Link>
       </div>
 
       <div className=''>{/* This div is for linkings */}
@@ -28,10 +28,10 @@ export default function Footer() {
           Submit
         </button>
         <div className='flex gap-4 p-3'>
-          <Link to='/' className='bg-yellow-300 rounded-full'>
+          <Link to='https://www.facebook.com/share/1DSDLmcNCB/' className='bg-yellow-300 rounded-full'>
             <img src="../../public/images/fb-logo.png" alt="" />
           </Link>
-          <Link to='/' className='bg-yellow-300 rounded-full'>
+          <Link to='https://www.instagram.com/5huv_0?igsh=ZDVuMm0wOTBtMnln' className='bg-yellow-300 rounded-full'>
             <img src="../../public/images/insta-logo.png" alt="" />
           </Link>
           <Link to='https://contributor.stock.adobe.com/en/portfolio' className='bg-yellow-300 rounded-full'>
@@ -40,7 +40,7 @@ export default function Footer() {
           <Link to='https://contributor.freepik.com/dashboard' className='bg-yellow-300 rounded-full'>
             <img src="../../public/images/camera-logo.png" alt="" />
           </Link>
-          <Link to='/' className='bg-yellow-300 rounded-full'>
+          <Link to='mailto: md88748874@gmail.com' className='bg-yellow-300 rounded-full'>
             <img src="../../public/images/gmail-logo.png" alt="" />
           </Link>
         </div>
