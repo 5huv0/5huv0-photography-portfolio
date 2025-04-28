@@ -54,3 +54,6 @@ export default function AboutMe() {
     </div>
   )
 }
+
+
+// Will add - Element scroll linked animation , Scroll-linked animations,Scroll-triggered animations,Split text,Scatter text,Wavy text,Swipe actions,Reveal text effect,Typewriter,usePresenceData,Variants
