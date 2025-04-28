@@ -7,18 +7,19 @@ export default function MyWorks() {
   return (
     <div className='flex flex-col'>
       <motion.div className='text-6xl font-extrabold  bg-red-600 w-fit'
-      initial={{
-        x : 400
-      }}
-      animate={{
-        x : 0,
-        scale: .8,
-        repeat: Infinity,
-        ease: 'anticipate'
-      }}
-      transition={{
-        duration : 1
-      }}>
+      // initial={{
+      //   x : 400
+      // }}
+      // animate={{
+      //   x : [0,800,800,0,0],
+      //   y: [0,0,300,300,0],
+      //   scale: .8,
+      // }}
+      // transition={{
+      //   duration : 1,
+      //   ease: 'anticipate'
+      // }}
+      >
         📷My Works:
       </motion.div>
 

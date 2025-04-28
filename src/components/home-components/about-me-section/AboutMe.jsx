@@ -5,30 +5,45 @@ export default function AboutMe() {
   return (
     <div className='flex flex-row items-center m-10 gap-6'>
       <motion.div
-        initial={{
-          x : -400
-        }}
-        animate={{
-          x : 20
-        }}
-        transition={{
-          duration : 1
-        }}
+        // initial={{
+        //   x : -400
+        // }}
+        // animate={{
+        //   x : 20
+        // }}
+        // transition={{
+        //   duration : 1
+        // }}
       >
         <img src="/images/me1.jpg" alt=""  className="w-150 h-150 object-cover rounded-full border-3 border-[#FEE715]"/>
       </motion.div>
 
       <motion.div className='font-mono flex flex-col justify-start max-w-2xl gap-8 border p-4 border-[#FEE715]'
-      initial={{
-        x : 400
-      }}
-      animate={{
-        x : 0,
-        scale: .8
-      }}
-      transition={{
-        duration : 1
-      }}>
+      // initial={{
+      //   x : 400
+      // }}
+      // animate={{
+      //   x : 0,
+      //   scale: .8
+      // }}
+      // transition={{
+      //   duration : 1
+      // }}
+      // whileTap={{
+      //  scale: 1.5
+      // }}
+      // whileHover={{
+      //   backgroundColor: 'green',
+      //   color: 'black'
+      // }}
+      // drag
+      // dragConstraints={{
+      //   left : 0,
+      //   right : 1000,
+      //   top : 0,
+      //   bottom : 700
+      // }}
+      >
         <p className='text-6xl font-extrabold bg-red-600 w-fit'>
         👨‍💻About Me:
         </p>
