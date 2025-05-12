@@ -1,10 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import {motion} from 'motion/react'
 export default function NavAboutMe() {
   return (
-    <div>
-      <div className='text-center flex flex-col items-center'>
+    <motion.div>
+      <motion.div
+      initial={{ x: -300, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -100, opacity: 0 }}
+      transition={{ duration: 1.9 }}
+      className='text-center flex flex-col items-center'>
         <p className='font-mono text-yellow-400 text-xl m-4'>A BIT ABOUT ME</p>
         <p className='font-mono text-orange-400 text-9xl font-bold m-4'>Who Am I?</p>
         <img src="/images/me3.jpg" alt="" className='size-250 object-cover rounded-full border-yellow-300 m-4 border-2'/>
@@ -16,10 +21,15 @@ export default function NavAboutMe() {
         Outside of photography and engineering, I’m always exploring creative outlets—whether it’s design, editing, or simply finding inspiration in travel and nature. I believe that art and technology can coexist beautifully, and I try to blend both in my approach to life and work. My goal is to keep evolving, keep learning, and keep capturing the beauty in the ordinary.
         Thank you for taking the time to get to know me. I hope my work resonates with you, and I’d love for you to follow along as I continue this creative journey.
         </p>
-      </div>
+      </motion.div>
       <p className='font-bold text-4xl bg-red-600 text-center p-4 m-4'>Things I Like To Shoot Most:  </p>
 
-      <div className='flex items-center align-middle justify-center gap-7 text-center font-mono font-bold p-4'>
+      <motion.div 
+            initial={{ x: 300, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            exit={{ x: -100, opacity: 0 }}
+            transition={{ duration: 1.9 }}
+      className='flex items-center align-middle justify-center gap-7 text-center font-mono font-bold p-4'>
         <div className='box-border size-80 p-4 bg-yellow-400 text-black rounded-2xl flex flex-col justify-center items-center'>
           <img src="/images/pic13.jpg" alt="" className='size-60'/>
           <p>Wild Life</p>
@@ -40,7 +50,7 @@ export default function NavAboutMe() {
           <p>Slow Shutter</p>
           <Link to="#" className='hover:underline hover:bg-red-500'>See More</Link>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   )
 }
